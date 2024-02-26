@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"],
+select,
+button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Styling the header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Styling labels for a cleaner look */
+label {
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+/* Adding a bit of style to the select list */
+select {
+    display: block;
+    font-size: 16px;
+}
+
+/* Styling paragraphs for better readability */
+p {
+    margin-top: 20px;
+}
